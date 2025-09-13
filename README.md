@@ -18,3 +18,5 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 |08/25/2025  | Find longest common Prefix          | 🟢 Easy    |https://github.com/gemmatruong/longest_Common_Prefix
 |08/30/2025  | Check for valid Parentheses         | 🟢 Easy    |https://github.com/gemmatruong/validParentheses
 |09/11/2025  | Remove Duplicates from Sorted Array | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+|09/11/2025  | Remove targeted value from a list   | 🟢 Easy    |https://github.com/gemmatruong/Leetcode/tree/main/removeElement
+|09/12/2025|Find the index of first occurrence in a str|🟢 Easy |https://github.com/gemmatruong/Leetcode
