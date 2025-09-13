@@ -1,0 +1,22 @@
+# Visual Studio cache
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+
+# Compiled binaries
+*.exe
+*.obj
+*.dll
+*.pdb
+*.lib
+
+# Other temporary files
+*.log
+*.user
+*.suo
