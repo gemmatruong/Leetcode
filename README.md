@@ -20,3 +20,5 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 |09/11/2025  | Remove Duplicates from Sorted Array | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 |09/11/2025  | Remove targeted value from a list   | 🟢 Easy    |https://github.com/gemmatruong/Leetcode/tree/main/removeElement
 |09/12/2025|Find the index of first occurrence in a str|🟢 Easy |https://github.com/gemmatruong/Leetcode
+|09/14/2025|Return index of number in a list       |🟢 Easy     |https://github.com/gemmatruong/Leetcode/tree/main/searchInsert
+|09/15/2025|Return length of lastword in a string  |🟢 Easy     |https://github.com/gemmatruong/Leetcode
