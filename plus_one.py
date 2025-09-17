@@ -23,5 +23,5 @@ def main():
     print(solution.plusOne([9]))  # Output: [1, 0]
     print(solution.plusOne([9, 9, 9]))  # Output: [1, 0, 0, 0]
 
-if __name__ == "__main__":
+if __name__ == "__main__":g
     main()
