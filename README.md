@@ -23,3 +23,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 |09/14/2025|Return index of number in a list       |🟢 Easy     |https://github.com/gemmatruong/Leetcode/tree/main/searchInsert
 |09/15/2025|Return length of lastword in a string  |🟢 Easy     |https://github.com/gemmatruong/Leetcode
 |09/17/2025|Add 1 to the last element of a number list|🟢 Easy     |https://github.com/gemmatruong/Leetcode
+|09/24/2025|Count ways to climb stairs             |🟢 Easy     |https://github.com/gemmatruong/Leetcode
