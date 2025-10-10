@@ -26,3 +26,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 |09/24/2025|Count ways to climb stairs             |🟢 Easy     |https://github.com/gemmatruong/Leetcode
 |09/27/2025|Remove duplicated element in a linked list |🟢 Easy |https://github.com/gemmatruong/Leetcode/tree/main/source/repos/easy_Leetcode/remove_duplicates_linked_list
 |09/28/2025|Merge two sorted list into one         |🟢 Easy     |https://github.com/gemmatruong/Leetcode
+|10/09/2025|Find Majority Element in a list        |🟢 Easy     |https://github.com/gemmatruong/Leetcode
