@@ -31,4 +31,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 10/22/2025 |Check if two arrays of chars are isomorphic| 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 10/22/2025 |Reverse a string s                         | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 10/22/2025 |Reverse all vowels in a string             | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
-
+10/30/2025 |Check if a string is palindrome            | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
