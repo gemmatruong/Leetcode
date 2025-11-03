@@ -34,3 +34,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 10/30/2025 |Check if a string is palindrome            | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 10/31/2025 |Return a single number in a list           | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/01/2025 |Find first unique character in a string    | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/02/2025 |Find first char occuring twice in a string | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
