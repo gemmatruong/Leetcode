@@ -40,67 +40,56 @@ class KthLargest:
 
 
 def main():
-    print("Test Case 1:")
-    kth = KthLargest(3, [4, 5, 8, 2])
-    print(kth.add(3))   # → 4
-    print(kth.add(5))   # → 5
-    print(kth.add(10))  # → 5
-    print(kth.add(9))   # → 8
-    print(kth.add(4))   # → 8
+    """
+    Run 10 distinct test cases for the KthLargest class.
+    Each test case uses assertions to verify correctness.
+    """
+    # Test case 1
+    obj1 = KthLargest(3, [4, 5, 8, 2])
+    assert obj1.add(3) == 4, "TC1 failed: expected 4"
 
-    print("\nTest Case 2:")
-    kth = KthLargest(1, [])
-    print(kth.add(-3))  # → -3
-    print(kth.add(-2))  # → -2
-    print(kth.add(-4))  # → -2
-    print(kth.add(0))   # → 0
-    print(kth.add(4))   # → 4
+    # Test case 2
+    obj2 = KthLargest(1, [-1, 2, 3])
+    assert obj2.add(4) == 4, "TC2 failed: expected 4"
 
-    print("\nTest Case 3:")
-    kth = KthLargest(2, [10, 7, 11])
-    print(kth.add(5))   # → 10
-    print(kth.add(13))  # → 11
+    # Test case 3 – empty initial list
+    obj3 = KthLargest(2, [])
+    assert obj3.add(5) == 5, "TC3 failed: expected 5"
+    assert obj3.add(10) == 5, "TC3 failed: expected 5 after adding 10"
 
-    print("\nTest Case 4:")
-    kth = KthLargest(3, [1, 2])
-    print(kth.add(3))   # → 1
-    print(kth.add(4))   # → 2
+    # Test case 4 – adding a larger element
+    obj4 = KthLargest(3, [1, 2, 3, 4, 5])
+    assert obj4.add(6) == 4, "TC4 failed: expected 4"
 
-    print("\nTest Case 5:")
-    kth = KthLargest(4, [5, -1, 10, 2, 7])
-    print(kth.add(3))   # → 3
-    print(kth.add(8))   # → 5
+    # Test case 5 – k larger than initial size
+    obj5 = KthLargest(4, [10, 9, 8])
+    assert obj5.add(7) == 7, "TC5 failed: expected 7"
 
-    print("\nTest Case 6:")
-    kth = KthLargest(2, [100, 50, 200])
-    print(kth.add(150)) # → 150
-    print(kth.add(300)) # → 200
+    # Test case 6 – duplicate removal after adding
+    obj6 = KthLargest(2, [100, 200])
+    assert obj6.add(150) == 150, "TC6 failed: expected 150"
 
-    print("\nTest Case 7:")
-    kth = KthLargest(3, [1, 1, 1])
-    print(kth.add(1))   # → 1
-    print(kth.add(2))   # → 1
+    # Test case 7 – negative numbers, k larger than current heap
+    obj7 = KthLargest(5, [-5, -10, -3])
+    assert obj7.add(-1) == -10, "TC7 failed: expected -10"
 
-    print("\nTest Case 8:")
-    kth = KthLargest(2, [9])
-    print(kth.add(10))  # → 9
-    print(kth.add(8))   # → 9
-    print(kth.add(11))  # → 10
+    # Test case 8 – all zeros
+    obj8 = KthLargest(3, [0, 0, 0])
+    assert obj8.add(0) == 0, "TC8 failed: expected 0"
 
-    print("\nTest Case 9:")
-    kth = KthLargest(3, [])
-    print(kth.add(5))   # → 5
-    print(kth.add(10))  # → 5
-    print(kth.add(9))   # → 5
-    print(kth.add(4))   # → 5
-    print(kth.add(15))  # → 9
+    # Test case 9 – adding a very small number
+    obj9 = KthLargest(2, [1, 2])
+    assert obj9.add(-100) == 1, "TC9 failed: expected 1"
 
-    print("\nTest Case 10:")
-    kth = KthLargest(5, [3, 2, 4, 1])
-    print(kth.add(5))   # → 1
-    print(kth.add(6))   # → 2
-    print(kth.add(0))   # → 2
-    print(kth.add(10))  # → 3
+    # Test case 10 – adding a larger number
+    obj10 = KthLargest(3, [5, 4, 3])
+    assert obj10.add(6) == 4, "TC10 failed: expected 4"
+
+    # Additional sanity check – large numbers
+    large_obj = KthLargest(3, [10**9, 10**9 - 1, 10**9 - 2])
+    assert large_obj.add(10**9 + 5) == 10**9 - 1, "Large TC failed: expected 10**9 - 1"
+
+    print("All 10 test cases passed successfully!")
 
 
 if __name__ == "__main__":
