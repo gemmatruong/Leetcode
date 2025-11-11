@@ -37,5 +37,6 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/02/2025 |Find first char occuring twice in a string | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/07/2025 |Count number of segments in a string       | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/08/2025 |Reverse k chars in every 2k chars in a string| 🟢 Easy  |https://github.com/gemmatruong/Leetcode
-11/08/2025 |Reverse inside every single word in a string| 🟢 Easy   |https://github.com/gemmatruong/Leetcode
+11/08/2025 |Reverse inside every single word in a string  |🟢 Easy  |https://github.com/gemmatruong/Leetcode
 11/09/2025 |Use priority queue to extract k-th largest num| 🟢 Easy |https://github.com/gemmatruong/Leetcode
+11/10/2025 |Return column title in an Excel sheet      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
