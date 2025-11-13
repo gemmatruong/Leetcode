@@ -42,3 +42,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/10/2025 |Return column title in an Excel sheet      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/11/2025 |Return column number in an Excel sheet     | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/12/2025 |Calculate average excluding min and max    | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/13/2025 |Find all cells in a given range Excel      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
