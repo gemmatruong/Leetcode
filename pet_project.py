@@ -1,10 +1,9 @@
 import random
 
-def play_game():
-    print("🕵️ DETECTIVE GAME: Find the Killer!")
-    print("-------------------------------------")
-    print("You will receive 3 clues. Use them to identify the killer.\n")
+def play_round(round_number):
+    print(f"\n====== ROUND {round_number} ======\n")
 
+    # --- 10 UNIQUE PUZZLES ---
     puzzles = [
         {
             "killer": "Mr. Black",
@@ -98,7 +97,6 @@ def play_game():
         }
     ]
 
-    # pick a random case
     case = random.choice(puzzles)
     killer = case["killer"]
     suspects = case["suspects"]
@@ -114,11 +112,29 @@ def play_game():
     guess = input("\nWho is the killer? ").strip()
 
     if guess.lower() == killer.lower():
-        print("🔍 Correct! You solved the murder!")
+        print("🔍 Correct! You solved the case!")
     else:
         print(f"❌ Wrong! The killer was: {killer}")
 
-    print("\nThanks for playing, Detective!")
+def play_game():
+    print("🕵️ DETECTIVE GAME — FIND THE KILLER!")
+    print("Up to 3 rounds per game.\n")
+
+    round_number = 1
+
+    while round_number <= 3:
+        play_round(round_number)
+
+        if round_number == 3:
+            print("\n🎉 You reached Round 3 — Game Over!")
+            break
+
+        choice = input("\nDo you want to continue to the next round? (yes/no): ").strip().lower()
+        if choice not in ["yes", "y"]:
+            print("\n👋 You ended the game early. Goodbye Detective!")
+            break
+
+        round_number += 1
 
 if __name__ == "__main__":
     play_game()
