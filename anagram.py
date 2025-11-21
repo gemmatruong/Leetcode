@@ -15,6 +15,13 @@ class Solution:
         #     return True
         # return False
 
+        # Way 2: Use Counter library
+
+        # s_count = Counter(s)
+        # t_count = Counter(t)
+
+        # return s_count == t_count
+
         # Way 3: Use set() and count() function
         if len(s) != len(t):
             return False
