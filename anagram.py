@@ -3,6 +3,17 @@ from collections import Counter
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         ''' 3 Ways to solve this problem'''
+        # Way 1: use list and sorted() function
+
+        # if len(s) != len(t):
+        #     return False
+
+        # s_list = list(s)
+        # t_list = list(t)
+
+        # if sorted(s_list) == sorted(t_list):
+        #     return True
+        # return False
 
         # Way 3: Use set() and count() function
         if len(s) != len(t):
