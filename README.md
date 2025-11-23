@@ -47,3 +47,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/13/2025 |Check duplicate num in required range      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/20/2025 |Check for anagram strings                  | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/22/2025 |Check for word pattern                     | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/22/2025 |Find and return words with given pattern   | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
