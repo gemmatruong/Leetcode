@@ -34,3 +34,27 @@ class Solution:
         #         return False
         #     letters_count[char] = value - 1
         # return True
+
+def main():
+    sol = Solution()
+
+    test_cases = [
+        ("a", "b"),                # False - magazine missing character
+        ("a", "a"),                # True - exact match
+        ("aa", "ab"),              # False - not enough 'a'
+        ("aa", "aab"),             # True - enough 'a's
+        ("", "abc"),               # True - empty ransomNote
+        ("abc", ""),               # False - empty magazine
+        ("hello", "lloeh"),        # True - magazine contains letters
+        ("note", "notebook"),      # True - all letters available
+        ("apple", "papel"),        # True - rearranged letters
+        ("zzz", "zz"),             # False - insufficient 'z'
+    ]
+
+    for i, (ransomNote, magazine) in enumerate(test_cases, 1):
+        result = sol.canConstruct(ransomNote, magazine)
+        print(f"Test Case {i}: canConstruct('{ransomNote}', '{magazine}') -> {result}")
+
+
+if __name__ == "__main__":
+    main()
