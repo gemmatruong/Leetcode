@@ -17,3 +17,20 @@ class Solution:
             magazine = magazine[:idx] + magazine[idx+1:]
         return True
 
+        # ---------------------------------------------------------
+        # Way 2: Use Counter(). O(n)
+        # # Can't construct a string from a shorter string
+        # if len(ransomNote) > len(magazine):
+        #     return False
+
+        # # Count the occurence of letters in magazine
+        # letters_count = Counter(magazine)
+        
+        # for char in ransomNote:
+        #     if char not in magazine:
+        #         return False
+        #     value = letters_count[char]
+        #     if value == 0:
+        #         return False
+        #     letters_count[char] = value - 1
+        # return True
