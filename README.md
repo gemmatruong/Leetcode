@@ -50,3 +50,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/22/2025 |Find and return words with given pattern   |🟡 Medium   |https://github.com/gemmatruong/Leetcode
 11/23/2025 |Check if a string is constructed from another string| 🟢 Easy |https://github.com/gemmatruong/Leetcode
 11/24/2025 |Check if a string is a subsequence         | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/24/2025 |Return FizzBuzz list                       | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
