@@ -1,5 +1,19 @@
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
+        # WAY 1: O(n). Using a new string and index to traverse thru s
+        # if len(s) > len(t):
+        #     return False
+
+        # new_t = ""
+        # i = 0
+
+        # for char in t:
+        #     if i < len(s):
+        #         if char == s[i]:
+        #             new_t += char
+        #             i += 1
+        
+        # return s == new_t
 
         # WAY 2: O(n). Use 2 indexes
         s_idx = 0
