@@ -52,3 +52,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/24/2025 |Check if a string is a subsequence         | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/24/2025 |Return FizzBuzz list                       | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/27/2025 |Check for happy number                     | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/27/2025 |Check for ugly number                      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
