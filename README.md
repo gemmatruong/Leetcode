@@ -55,3 +55,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/27/2025 |Check for ugly number                      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/27/2025 |Find n-th ugly number                      |🟡 Medium   |https://github.com/gemmatruong/Leetcode
 11/29/2025 |Convert sorted array to balanced tree      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/29/2025 |Inorder traversal thru a tree              | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
