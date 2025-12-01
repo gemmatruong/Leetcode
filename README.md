@@ -57,3 +57,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/29/2025 |Convert sorted array to balanced tree      | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/29/2025 |Inorder traversal thru a tree              | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/30/2025 |Check if two binary trees are the same     | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+11/30/2025 |Check if a binary tree is symmetric        | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
