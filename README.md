@@ -59,3 +59,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 11/30/2025 |Check if two binary trees are the same     | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/30/2025 |Check if a binary tree is symmetric        | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 11/30/2025 |Find the max depth of a binary tree        | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+12/05/2025 |Check if a tree is balanced                | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
