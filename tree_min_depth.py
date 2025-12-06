@@ -20,6 +20,25 @@ class Solution:
                 return 1
             return 1 + min(dfs(node.left), dfs(node.right))
         return dfs(root)
+    
+        # -------------------------------------
+        # Way 2:
+    #     if not root:
+    #         return 0
+        
+    #     self.min_depth = float('inf')
+    #     self.dfs(root, 0)
+    #     return self.min_depth
+
+    # def dfs(self, node, current_depth):
+    #     if not node:
+    #         return
+    #     if not node.left and not node.right:
+    #         self.min_depth = min(self.min_depth, current_depth+1)
+    #     self.dfs(node.left, current_depth+1)
+    #     self.dfs(node.right, current_depth+1)
+
+
 
 
 
