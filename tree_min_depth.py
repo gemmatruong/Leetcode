@@ -38,7 +38,27 @@ class Solution:
     #     self.dfs(node.left, current_depth+1)
     #     self.dfs(node.right, current_depth+1)
 
+        # Way 3: Using BFS
+        if not root:
+            return 0
+        queue = deque()
+        queue.append(root)
+        depth = 0
 
+        while queue:
+            depth += 1
+
+            for _ in range(len(queue)):
+                node = queue.popleft()
+                
+                if not node.left and not node.right:
+                    return depth
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+        
+        return depth
 
 
 
