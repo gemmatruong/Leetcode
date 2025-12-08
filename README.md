@@ -62,3 +62,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/05/2025 |Check if a tree is balanced                | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 12/05/2025 |Find min depth of a tree                   | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
 12/06/2025 |Find root-to-leaf path for given sum       | 🟢 Easy    |https://github.com/gemmatruong/Leetcode
+12/06/2025 |Find all root-to-leaf paths for given sum  |🟡 Medium   |https://github.com/gemmatruong/Leetcode
