@@ -33,6 +33,34 @@ class Solution:
                 queue.append([node.right, current_sum + node.right.val, path + [node.right.val]])
         return result
 
+        # WAY 2: Use DFS
+        # result = []     # A list of result path
+        # path = []       # A list keep track of current path
+        
+        # # target is the remaining sum, we decrease it by node's value every time travel to a new node
+        # def dfs(node, target):  
+        #     if not node:
+        #         return
+
+        #     # Add new node's value to current path
+        #     path.append(node.val)
+
+        #     # If node is a leaf and remaining sum equals the node's value, 
+        #     # add the current path to result list
+        #     # use list() function to add a copy of the current path instead of its address.
+        #     if not node.left and not node.right and node.val == target:
+        #         result.append(list(path))
+
+        #     # traverse thru the left branch, decrease the remaining sum by the node's value
+        #     dfs(node.left, target - node.val)
+        #     # traverse thru the right branch, decrease the remaining sum by the node's value
+        #     dfs(node.right, target - node.val)
+            
+        #     # remove the node has been checked both left and right children from the current path
+        #     path.pop()
+
+        # dfs(root, targetSum)       
+        # return result
 
 def main():
     sol = Solution()
