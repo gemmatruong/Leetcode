@@ -10,7 +10,19 @@ class TreeNode:
 
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
-
+        # WAY 1: use DFS
+        # # If it is empty node, return False
+        # if not root:
+        #     return False
+        
+        # # If it is the leaf, return true if match the target, otherwise return false
+        # if not root.left and not root.right:
+        #     return targetSum == root.val
+        
+        # # This statement will make sure we check both left branch and right branch
+        # # We only need 1 matched branch, OR function will make sure just 1 True will return True
+        # # Ex: False or True --> return True
+        # return (self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val))
 
         # Way 2: Use BFS
         if not root:
