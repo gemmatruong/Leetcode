@@ -10,7 +10,40 @@ class TreeNode:
 
 class Solution:
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
+        # WAY 1:
+        # if not root:
+        #     return []
+
+        # num_list = []   # A list of number paths
+        # path = []       # Each path from root-to-leaf
         
+        # def dfs(node):
+        #     if not node:
+        #         return
+
+        #     # Add each node to current path
+        #     path.append(node.val)
+
+        #     # If node is a leaf, add the current path to the number path list
+        #     if not node.left and not node.right:
+        #         num_list.append(list(path))
+
+        #     # Go to left branch
+        #     dfs(node.left)
+        #     # go to right branch
+        #     dfs(node.right)
+        #     # Remove the node that already been checked from the current path
+        #     path.pop()
+        
+        # dfs(root)
+        # result = []     # result list including the string paths with required format
+        # for p in num_list:
+        #     print(p)
+        #     s = ""
+        #     for num in p:
+        #         s = s + str(num) + "->"
+        #     result.append(s[:-2])   # ignore the '->' at the end of string
+        # return result
 
         # Way 2:
         path = []
