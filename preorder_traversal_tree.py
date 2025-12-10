@@ -28,15 +28,15 @@ class Solution:
         # return result
         
         # Cleaner way: also using DFS iterative
-        # result = []
-        # def dfs(node):
-        #     if not node:
-        #         return
-        #     result.append(node.val)
-        #     dfs(node.left)
-        #     dfs(node.right)
-        # dfs(root)
-        # return result
+        result = []
+        def dfs(node):
+            if not node:
+                return
+            result.append(node.val)
+            dfs(node.left)
+            dfs(node.right)
+        dfs(root)
+        return result
         
         # Way 3: DFS using stack
         if not root:
