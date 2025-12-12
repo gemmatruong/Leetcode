@@ -66,3 +66,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/07/2025 |Return a list of formatted tree path strings| 🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/09/2025 |Traverse a binary tree in pre-order        |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/11/2025 |Generate a pascal's triangle               |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
+12/11/2025 |Get i-th row from pascal's triangle        |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
