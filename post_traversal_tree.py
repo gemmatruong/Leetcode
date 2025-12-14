@@ -10,6 +10,19 @@ class TreeNode:
 class Solution:
     def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
 
+        # WAY 2: use dfs traversing left to right, adding bottom to top
+        # result = []
+        # def dfs(node):
+        #     if not node:
+        #         return
+        #     if node.left:
+        #         dfs(node.left)
+        #     if node.right:
+        #         dfs(node.right)
+        #     result.append(node.val)
+        # dfs(root)
+        # return result
+
         # WAY 3: use stack
         if not root:
             return []
