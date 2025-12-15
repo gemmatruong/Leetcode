@@ -69,3 +69,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/11/2025 |Get i-th row from pascal's triangle        |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/13/2025 |Postorder traversal in binary tree         |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/14/2025 |Postorder traversal in n-ary tree          |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
+12/14/2025 |Find date of buying and selling stock      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
