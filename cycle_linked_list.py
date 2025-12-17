@@ -8,8 +8,21 @@ class ListNode:
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
+        # WAY 1: use Floyd's Cycle Detection Algorithm
+        # slow, fast = head, head
+        # cycle = False
 
+        # while True:
+        #     if fast == None or fast.next == None:
+        #         return False
 
+        #     slow = slow.next
+        #     fast = fast.next.next
+
+            
+        #     if slow == fast:
+        #         return True
+        
         # WAY 2: Use set()
         seen = set()
 
