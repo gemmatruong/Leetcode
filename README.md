@@ -71,3 +71,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/14/2025 |Postorder traversal in n-ary tree          |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/14/2025 |Find date of buying and selling stock      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/16/2025 |Check for cycle in a linked list           |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
+12/17/2025 |Merge two sorted linked list               |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
