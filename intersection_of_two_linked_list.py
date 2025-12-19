@@ -8,7 +8,25 @@ class ListNode:
 
 class Solution:
     def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+        # WAY 1: O(m+n) time, O(m) memory
+        # traverse thru listA, save nodes in a set
+        # then traverse thru listB to check
 
+        # if not headA or not headB:
+        #     return None
+
+        # seenA = set()
+
+        # while headA:
+        #     seenA.add(headA)
+        #     headA = headA.next
+        
+        # while headB:
+        #     if headB in seenA:
+        #         return headB
+        #     headB = headB.next
+        
+        # return None
 
         # WAY 2: use two pointers. O(m+n) time and O(1) memory
         # A travels distance a + c + b
