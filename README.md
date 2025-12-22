@@ -75,3 +75,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/18/2025 |Find intersection of two linked lists      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/19/2025 |Join two tables in sql                     |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/21/2025 |Find employees earn more than manager      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
+12/21/2025 |Find duplicate emails                      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
