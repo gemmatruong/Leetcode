@@ -1,6 +1,31 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
+        # WAY 1
+        # if n == 0:
+        #     return 0
+            
+        # # convert decimal number to binary number (but in reversed order)
+        # binary_num = ""
+        # while n > 0:
+        #     binary_num += chr(ord('0') + int(n%2))
+        #     n = n // 2
         
+        # # if length of binary number is less than 32 bit
+        # # size extend with 0s
+        # if len(binary_num) < 32:
+        #     for _ in range(32-len(binary_num)):
+        #         binary_num += '0' 
+
+        # # convert binary to decimal
+        # i = 0
+        # result = 0
+        # length = len(binary_num) - 1
+        # while length >= 0:
+        #     result += int(binary_num[length]) * (2**i)
+        #     length -= 1
+        #     i += 1
+        
+        # return result
 
         # WAY 2: bit-by-bit build - O(32) time and O(1) space
         # if n == 0:
