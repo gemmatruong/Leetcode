@@ -77,3 +77,4 @@ I use it to track my progress, improve problem-solving skills, and prepare for c
 12/21/2025 |Find employees earn more than manager      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/21/2025 |Find duplicate emails                      |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
 12/23/2025 |Find customers who never order             |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
+12/27/2025 |Reverse binary bits                        |  🟢 Easy   |https://github.com/gemmatruong/Leetcode
